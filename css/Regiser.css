@@ -1,0 +1,166 @@
+body {
+    background-color: #c1cec19c;
+    position: relative;
+}
+
+form {
+    background-color: #c7d2c2;
+    width: 35%;
+    height: 75%;
+    text-align: center;
+    position: absolute;
+    top: 12%;
+    left: 32%;
+    border-radius: 100px 22px;
+    color: #92766b;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px 6px #363a3427;
+
+}
+
+.firstname {
+    margin: 3%;
+}
+
+.lastname {
+    margin: 3%;
+    position: relative;
+    right: .5%;
+}
+
+.email {
+    margin: 3%;
+    margin: 3%;
+    position: relative;
+    right: 3%;
+}
+
+.ph {
+    margin: 3%;
+    position: relative;
+    left: 2.5%;
+}
+
+.pass {
+    margin: 3%;
+    position: relative;
+    right: 1%;
+}
+
+#ln {
+    position: relative;
+    background-color: #d9e1d9;
+    border: #92766b 1px solid;
+    left: 6.8%;
+}
+
+#fn {
+    background-color: #d9e1d9;
+    border: #92766b 1px solid;
+    position: relative;
+    left: 6%;
+}
+
+#em {
+    background-color: #d9e1d9;
+    border: #92766b 1px solid;
+    position: relative;
+    left: 12.2%;
+}
+
+#ph {
+    background-color: #d9e1d9;
+    border: #92766b 1px solid;
+}
+
+#pass {
+    background-color: #d9e1d9;
+    border: #92766b 1px solid;
+    position: relative;
+    left: 7.3%;
+}
+
+#fn:focus-visible {
+    outline: #92766b solid 1px;
+}
+
+#ln:focus-visible {
+    outline: #92766b solid 1px;
+}
+
+#ph:focus-visible {
+    outline: #92766b solid 1px;
+}
+
+#em:focus-visible {
+    outline: #92766b solid 1px;
+}
+
+#pass:focus-visible {
+    outline: #92766b solid 1px;
+}
+
+#save {
+    margin-bottom: 2%;
+}
+
+#m {
+    position: relative;
+    right: 1.5%;
+}
+
+#ar {
+    position: relative;
+    right: 2%;
+}
+
+#en {
+    position: relative;
+    left: 2%;
+}
+
+#it {
+    position: relative;
+    right: 2%;
+}
+
+.gender {
+    position: relative;
+    right: 9.5%;
+}
+
+#gender {
+    position: relative;
+    left: 20%;
+    display: inline-block;
+}
+
+.language {
+    position: relative;
+    right: 9%;
+}
+
+#language {
+    position: relative;
+    left: 20%;
+    display: inline-block;
+}
+
+a:-webkit-any-link {
+    color: rgb(130, 98, 79);
+    cursor: pointer;
+    /* text-decoration: none;  */
+}
+
+#w:focus-visible {
+    color: #000;
+}
+
+input {
+
+    border-color: #7b57496b;
+    color: #92766b;
+    cursor: pointer;
+    background-color: #d9e1d9;
+}
